@@ -1,0 +1,43 @@
+{
+  "name": "rgr_innovathon",
+  "version": "1.0.0",
+  "description": "Innovathon Hackathon submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garvit170/RgR_Innovathon.git"
+  },
+  "author": "garvit, riya, ridham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garvit170/RgR_Innovathon/issues"
+  },
+  "homepage": "https://github.com/garvit170/RgR_Innovathon#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.22.0",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "ejs-layouts": "^0.0.1",
+    "express": "^4.17.1",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.17.2",
+    "hover.css": "^2.3.2",
+    "mongoose": "^6.0.9",
+    "particles.js": "^2.0.0",
+    "particlesjs": "^2.2.3",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0",
+    "razorpay": "^2.0.7"
+  },
+  "devDependencies": {
+    "http-server": "^13.0.2",
+    "nodemon": "^2.0.13"
+  }
+}
